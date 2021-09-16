@@ -1,0 +1,88 @@
+{% extends "site_base_layout.html" %}
+
+{% block title %}About{% endblock %}
+
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+<!-- begin page content -->
+<div class="row">
+	<div class="col-md-12">
+		<div class="main-text-block">
+			<h1><span><span style="display: flex; color: rgb(61 6 74); font-weight: 900">ABOUT</span></span>
+			</h1>
+			<p>Student Art Society is a registered student organization at the University of Texas at
+				San Antonio. SAS provides a network and space for those who enjoy the arts, providing
+				opportunities to enhance aesthetic appreciation, engage with others, and learn art principles. The club
+				offers students with academically informed, hands-on instruction in the practice of a variety of visual
+				media. Some of our activities include:</p>
+			<ul>
+				<li> Art Workshops </li>
+				<li> Art-themed Socials </li>
+				<li> Plein Air Sessions </li>
+				<li> Art History & Culture Discussions </li>
+				<li> Field trips & Outings</li>
+				<li> UTSA Events (Dia en la Sombrilla, BestFest, etc.)</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="container" id="about-container-1">
+	</div>
+
+	<div class="col-sm-12" style="place-content: center;">
+		<div class="main-text-block">
+			<h1><span><span style="display: flex; color: rgb(61 6 74); font-weight: 900">OFFICERS</span></span>
+			</h1>
+		</div>
+	</div>
+	<div class="members">
+		<div class="col-sm-12">
+			<div class="container-fluid" id="member">
+				<image src="{{ url_for('static', filename = 'images/christina.jpg'   )}}" width=20% class="officer-img">
+				</image>
+				<div>
+					<h3>PRESIDENT</h3>
+					<p>Christina Zhang</p>
+					<p>
+						Media of Choice: Oil/acrylics, colored pencil, graphite
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-12">
+			<div class="container-fluid" id="member">
+				<image src="{{ url_for('static', filename = 'images/jerzy.jpg'   )}}" width=20% class="officer-img">
+				</image>
+				<div>
+					<h3>VICE PRESIDENT</h3>
+					<p>Jerzy Nowakowski</p>
+					<p>
+						Media of Choice: Ceramics, graphite
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-12">
+			<div class="container-fluid" id="member">
+				<image src="{{ url_for('static', filename = 'images/elias.jpg'   )}}" width=20% class="officer-img">
+				</image>
+				<div>
+					<h3>TREASURER</h3>
+					<p>Elias Hudson</p>
+					<p>
+						Media of Choice: Graphic design
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row" id="art-credit-row">
+	<p>Image by Cody England</p>
+</div>
+{% endblock %}
+
+<!-- end page content -->

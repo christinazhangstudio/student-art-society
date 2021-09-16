@@ -1,0 +1,80 @@
+{% extends "site_base_layout.html" %}
+
+{% block title %}Member Spotlight{% endblock %}
+
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+<!-- begin page content -->
+<div class="row">
+	<div class="col-md-12">
+
+		<div class="main-text-block">
+			<h1><span><span style="display: flex; color: rgb(61 6 74); font-weight: 900">MEMBER
+						SPOTLIGHT</span></span>
+			</h1>
+			<p>Student Art Society is a collective comprised of a creative individuals in the San
+				Antonio area. Featuring a diverse range of talents and experiences, members share a deep
+				interest in art, advocacy, and/or forms of expression.</p>
+		</div>
+
+		<image src="{{ url_for('static', filename = 'images/wip.gif'   )}}" width=20%></image>
+		<p>This page is currently under construction (we're working on it, we promise!)</p>
+		<p>If you are currently a member and you would like to be featured on this page, email us your name and 2-3
+			sentence bio to studentartsocietyatutsa@gmail.com.</p>
+	</div>
+	<!--
+					<div class="members">
+						<div class="col-sm-12">
+							<div class="container-fluid" id="member">
+								<image src="{{ url_for('static', filename = 'images/christina.jpg'   )}}" width=20%
+									class="officer-img">
+								</image>
+								<div>
+									<h3>PRESIDENT</h3>
+									<p>Christina Zhang</p>
+									<p>
+										Media of Choice: Oil/acrylics, colored pencil, graphite
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-12">
+							<div class="container-fluid" id="member">
+								<image src="{{ url_for('static', filename = 'images/jerzy.jpg'   )}}" width=20%
+									class="officer-img">
+								</image>
+								<div>
+									<h3>VICE PRESIDENT</h3>
+									<p>Jerzy Nowakowski</p>
+									<p>
+										Media of Choice: Ceramics, graphite
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-12">
+							<div class="container-fluid" id="member">
+								<image src="{{ url_for('static', filename = 'images/elias.jpg'   )}}" width=20%
+									class="officer-img">
+								</image>
+								<div>
+									<h3>TREASURER</h3>
+									<p>Elias Hudson</p>
+									<p>
+										Media of Choice: Graphic design
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				-->
+</div>
+<div class="row" id="art-credit-row">
+	<p>Image by Jon Frickey</p>
+</div>
+{% endblock %}
+
+<!-- end page content -->

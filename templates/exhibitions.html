@@ -1,0 +1,29 @@
+{% extends "site_base_layout.html" %}
+
+{% block title %}Exhibitions{% endblock %}
+
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+<!-- begin page content -->
+<div class="row">
+	<div class="col-md-12">
+		<div class="main-text-block">
+			<h1><span><span style="display: flex; color: rgb(61 6 74); font-weight: 900">EXHIBITIONS</span></span>
+			</h1>
+			<p></p>
+
+		</div>
+		<image src="{{ url_for('static', filename = 'images/wip.gif'   )}}" width=20%></image>
+		<p>This page is currently under construction (we're working on it, we promise!)</p>
+		<p>If you would like your website/portfolio featured, email us at studentartsocietyatutsa@gmail.com.</p>
+	</div>
+</div>
+<div class="row" id="art-credit-row">
+	<p>Image by Jon Frickey</p>
+</div>
+{% endblock %}
+
+<!-- end page content -->

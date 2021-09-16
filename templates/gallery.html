@@ -1,0 +1,110 @@
+{% extends "site_base_layout.html" %}
+
+{% block title %}Gallery{% endblock %}
+
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+<!-- begin page content -->
+<div class="row" style="margin-right: 0px; margin-left: 0px;">
+	<div class="col-md-12">
+		<div class="main-text-block">
+			<div class="tickerwrapper">
+				<ul class='list'>
+					<li class='listitem'>
+						<span> ∎ GALLERY ∎</span>
+					</li>
+					<li class='listitem'>
+						<span> ∎ GALLERY ∎</span>
+					</li>
+					<li class='listitem'>
+						<span> ∎ GALLERY ∎</span>
+					</li>
+					<li class='listitem'>
+						<span> ∎ GALLERY ∎</span>
+					</li>
+					<li class='listitem'>
+						<span> ∎ GALLERY ∎</span>
+					</li>
+					<li class='listitem'>
+						<span> ∎ GALLERY ∎</span>
+					</li>
+					<li class='listitem'>
+						<span>∎ GALLERY ∎</span>
+					</li>
+					<li class='listitem'>
+						<span>∎ GALLERY ∎</span>
+					</li>
+					<li class='listitem'>
+						<span>∎ GALLERY ∎</span>
+					</li>
+					<li class='listitem'>
+						<span>∎ GALLERY ∎</span>
+					</li>
+				</ul>
+			</div>
+			<div class="container">
+				<div class="gallery-row-1">
+					<div class="col" id="gallery-col-1">
+						<p id="gallery-sec-1">A compilation of some photographs taken during our organizational events
+							(and miscellaneous works). Visit the EXHIBITIONS page to learn about students'
+							artistic endeavors.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="waterfall">
+	<div class="gallery-item">
+		<div class="gallery-img">
+			<image src="{{ url_for('static', filename = 'images/woo-lab1.jpg'   )}}">
+			</image>
+			<figcaption>If not for COVID, our meetings would typically be in the Art Building's WOO Lab! Click <a
+					href="http://art.utsa.edu/woo-lab" target="_blank" rel="noopener">here</a> to learn more about this
+				space.</figcaption>
+		</div>
+	</div>
+	<div class="gallery-item">
+		<div class="gallery-img">
+			<image src="{{ url_for('static', filename = 'images/woo-lab2.jpg'   )}}">
+			</image>
+			<figcaption>Officers & Professor Jayne Lawrence in the WOO Lab, Spring 2020.</figcaption>
+		</div>
+	</div>
+	<div class="gallery-item">
+		<div class="gallery-img">
+			<image src="{{ url_for('static', filename = 'images/sabot1.jpg'   )}}">
+			</image>
+			<figcaption>Outing to the San Antonio Botanical Garden, Spring 2021.</figcaption>
+		</div>
+	</div>
+	<div class="gallery-item">
+		<div class="gallery-img">
+			<image src="{{ url_for('static', filename = 'images/discord-talk.jpg'   )}}">
+			</image>
+			<figcaption>Staying active online during the big sick season. <a href="https://discord.gg/K8rexqn9p3"
+					target="_blank" rel="noopener">Join the Discord server!</a></figcaption>
+		</div>
+	</div>
+	<div class="gallery-item">
+		<div class="gallery-img">
+			<image src="{{ url_for('static', filename = 'images/comic1.jpg'   )}}">
+			</image>
+			<figcaption>Comic art workshop drawing 1/2, Fall 2020</figcaption>
+		</div>
+	</div>
+	<div class="gallery-item">
+		<div class="gallery-img">
+			<image src="{{ url_for('static', filename = 'images/comic2.jpg'   )}}">
+			</image>
+			<figcaption>Comic art workshop drawing 2/2, Fall 2020</figcaption>
+		</div>
+	</div>
+</div>
+<div class="row">
+</div>
+{% endblock %}
+<!-- end page content -->

@@ -1,0 +1,31 @@
+{% extends "site_base_layout.html" %}
+
+{% block title %}Events{% endblock %}
+
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+<!-- begin page content -->
+<div class="row">
+	<div class="col-md-12">
+		<div class="main-text-block">
+			<h1><span><span style="display: flex; color: rgb(61 6 74); font-weight: 900">EVENTS</span></span>
+			</h1>
+
+			<div class="container" id="events-container-1">
+				<iframe
+					src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23F6BF26&amp;ctz=America%2FChicago&amp;src=c3R1ZGVudGFydHNvY2lldHlhdHV0c2FAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23F09300&amp;color=%2333B679&amp;title=Student%20Art%20Society%20Calendar"
+					style="border: solid 8px #841176;" width="100%" height="580px" frameborder="0"
+					scrolling="no"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row" id="art-credit-row">
+	<p>Image by Erica Anderson</p>
+</div>
+{% endblock %}
+
+<!-- end page content -->
