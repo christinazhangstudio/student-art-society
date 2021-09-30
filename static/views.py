@@ -1,6 +1,5 @@
-from flask import Flask, render_template, url_for, request           # Library Imports
-# Define application
-app = Flask(__name__) 
+from flask import Flask, render_template, url_for, request         
+from app import app, pages
 
 # URL Routes
 ###################################
@@ -33,7 +32,3 @@ def becomeMember():
     return render_template("become-a-member.html")                     
 
 ################################
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
