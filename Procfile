@@ -1,1 +1,1 @@
-web: gunicorn utsa-sas:app
+web: gunicorn student-art-society:app
