@@ -1,6 +1,6 @@
 Everytime files are edited, do the following commands to update this git repo:
 ```
-git add.
+git add .
 ```
 ```
 git commit -m "Add your custom commit message here"
