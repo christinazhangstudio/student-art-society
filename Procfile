@@ -1,1 +1,1 @@
-web: gunicorn student-art-society:app
+web: gunicorn app:app
