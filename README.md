@@ -42,8 +42,8 @@ heroku open
 The Heroku account associated with the SAS website is Christina Zhang's (Founder/President 2020-2022). If future maintainers would like to shift ownership and create a new Heroku account (recommended), please download this source code or do a `git clone`, create a new Heroku account and login into it through `heroku login`, `cd` to the root directory for this app, create a heroku app through `heroku create`, and lastly do `git push heroku master` and `heroku open`.
 
 Here are some helpful resources:
-https://devcenter.heroku.com/articles/getting-started-with-python?singlepage=true
-https://python-adv-web-apps.readthedocs.io/en/latest/flask_deploy.html
+- https://devcenter.heroku.com/articles/getting-started-with-python?singlepage=true
+- https://python-adv-web-apps.readthedocs.io/en/latest/flask_deploy.html
 
 - - - -
 ## Contact
