@@ -1,7 +1,7 @@
 # Student Art Society at UTSA Official Website
 - - - -
 ## About
-The Student Art Society is a COLFA student organization at the University of Texas at San Antonio. This git repository contains the source code for the website; this is a Python web app, using the Flask framework, deployed on Heroku (for free). The url 
+The Student Art Society is a COLFA student organization at the University of Texas at San Antonio. This git repository contains the source code for the website; this is a Python web app, using the Flask framework, deployed on Heroku (for free). The url is currently: https://student-art-society.herokuapp.com/
 
 - - - -
 ## Prerequisities
