@@ -1,7 +1,7 @@
 # Student Art Society at UTSA Official Website
 - - - -
 ## About
-The Student Art Society is a COLFA student organization at the University of Texas at San Antonio. This git repository contains the source code for the website; this is a Python web app, using the Flask framework, deployed on Heroku (for free). The custom domain that was registered through NameCheap is:  http://sas-utsa.me. It's short and simple! The default, heroku-provided URL is: https://student-art-society.herokuapp.com/. This URL will remain up even if a custom domain is set up, so it's recommended that for any permanent links, use this one instead of the custom domain (which is prone to expire).
+The Student Art Society is a COLFA student organization at the University of Texas at San Antonio. This git repository contains the source code for the website; this is a Python web app, using the Flask framework, deployed on Heroku (for free). The custom domain that was registered through Namecheap is:  http://sas-utsa.me. It's short and simple! The default, heroku-provided URL is: https://student-art-society.herokuapp.com/. This URL will remain up even if a custom domain is set up, so it's recommended that for any permanent links, use this one instead of the custom domain (which is prone to expire).
 
 - - - -
 ## Prerequisities
