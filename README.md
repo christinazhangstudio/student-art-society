@@ -13,6 +13,10 @@ The Student Art Society is a COLFA student organization at the University of Tex
 
 - - - -
 ## Maintenance Notes
+To locally test:
+```
+python -m flask run
+```
 
 Everytime files are edited, do the following commands to update this git repo:
 ```
